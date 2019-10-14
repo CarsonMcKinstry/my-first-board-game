@@ -28,7 +28,6 @@
     left: 6px;
 
     box-sizing: border-box;
-    background-color: white;
     padding: 6px;
     display: grid;
     grid-template-columns: 64px 144px;
@@ -37,8 +36,12 @@
     grid-template-areas: 
       "avatar unitinfo";
     border-radius: 6px;
-    box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.5);
+
+    z-index: 2;
+    border: 2px solid wheat;
+    background-color: rgba(16, 137, 255, 0.6);
   }
+
   .avatar {
     height: 64px;
     width: 64px;
