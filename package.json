@@ -1,0 +1,29 @@
+{
+  "name": "phaser",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Carson McKinstry <carson.mckinstry@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-static-files-copy": "^2.2.1",
+    "phaser": "^3.19.0",
+    "rxjs": "^6.5.3",
+    "typescript": "^3.6.3"
+  },
+  "devDependencies": {
+    "parcel-plugin-svelte": "^4.0.4",
+    "sass": "^1.23.0",
+    "svelte": "^3.12.1"
+  },
+  "staticFiles": {
+    "staticPath": "assets",
+    "watcherGlob": "**"
+  },
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "browserslist": [
+    "last 1 chrome versions"
+  ]
+}
